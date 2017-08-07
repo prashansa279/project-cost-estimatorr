@@ -1,0 +1,75 @@
+body
+{
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+#brandtext
+{
+    color:#1E8BC3;
+}
+#subheading
+{
+    font-size: 21px;
+    color:#95A5A6;
+}
+
+#note
+{
+    font-size: 16px;
+    color:#95A5A6;
+}
+ul li a
+{
+    font-size:25px;    
+}
+
+.imgformat1
+{
+    height:180px;
+    width:180px;
+    margin-left: 50px;
+    image-orientation: center;
+}
+
+.img-text1
+{
+    color: grey;
+}
+.img-text2
+{
+    padding-right:60px;
+    color:grey;
+}
+.imgformat2
+{
+    height:100px;
+    width:100px;
+}
+.questionpart
+{
+    font-size: 15px;
+    color:black;
+    text-align: center;
+    background-color: none;
+}
+.tab-content
+{
+    background-color:none;
+}
+#web
+{
+    background-color: none;
+}
+#app
+{
+    background-color: none;
+}
+#webapp
+{
+    background-color:none;
+}
+#calculation
+{
+    font-size:15px;
+}

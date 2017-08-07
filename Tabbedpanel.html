@@ -1,0 +1,1380 @@
+<html>
+    <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     
+     <link href="tabbedpannel.css" rel="stylesheet" type="text/css"/>
+     <title>Navbar</title>
+    </head>
+    <body>
+        <!--navbar
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" id="brandtext"><b>Martopolis</b></a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" id="textcolor">Work</a></li>
+                        <li><a href="#" id="textcolor">Blog</a></li>
+                        <li><a href="#" id="textcolor">Carrer</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>-->
+        
+        <!--heading-->
+        <div>
+        <!--heading and details-->
+            <h1 id="brandtext"><b>Estimate My Project</b></h1>
+            <p id="subheading">Select the items below which best describe your app and the features you require.</p>
+            <p id="note">All estimates are approximate but should give you a rough idea of what it will take to build your app.</p>
+            <br>
+        </div>
+        <!--tabs-->
+        <ul	class="nav	nav-tabs"	role="tablist">		
+                <li	role="presentation"	class="active col-sm-4">			
+                    <a	href="#web"  aria-controls="web" role="tab" data-toggle="tab">Website</a>
+                </li>		
+                <li	role="presentation" class="col-sm-4">			
+                    <a	href="#app"  aria-controls="app" role="tab" data-toggle="tab">Application</a>
+                </li>		
+                <li	role="presentation" class="col-sm-4">			
+                    <a	href="#webapp"  aria-controls="webapp" role="tab" data-toggle="tab">Website + App</a>
+                </li>
+        </ul>	
+        
+        <!--tab panels-->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="web">  
+                <div class="heading">
+                    <h3>1. How big is you project?</h3>
+                    <br>
+                </div>    
+                <div class="row questionpart">
+                    <div class="col-sm-4">
+                        <p class="img-text2">Small</p>                      
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/small@2x-d58c5d533621f5fe7ffd8f4cbdd556ebdb723639c371de1570405064fd0ade61.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="img-text2">Medium</p>
+                        <a href="#">
+                           <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/medium@2x-3f73284910e08d5750e163b0a57ba1e2950428883a8b4e7e9b0a84222769046e.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="img-text2">Large</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/large@2x-c7fc2c376674be4b7afabc7292144218c991c7c2e1b7a126d0040e607db43da5.png" class="img-circle img-responsive imgformat1" />
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="heading">
+                    <h3>2.What level of UI would you like?</h3>
+                    <br>
+                </div>
+                <div class="row questionpart">
+                    <div class="col-sm-4">
+                        <p class="img-text2">MVP</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/mvp@2x-9434764c1bc0fbfb2a3eff18f45ceb107951a46993b4cd446d6702078a1bcb89.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="img-text2">Basic</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/basic@2x-1b2b2488069b31b0f0dbc2a74f2e9db36e60f47009473bdcb42001c369e4549c.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="img-text2">Polished</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/polished@2x-4f3e2b9c22e6351d650d650bd5e8c75b7db7c286f5195cd2fa75a76fe569aa7e.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="heading">
+                    <h3>3.Users & Accounts</h3>
+                    <br>
+                    <br>
+                </div>    
+                <div class="row questionpart">
+                    <div class="col-sm-3">
+                        <p class="img-text1">Email/Password Sign Up</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/email_password_sign_up@2x-a5cf07d56027a867ce801374a02948cc4ea3067ca6d857c7a4a6ffe1682c90ca.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="img-text1">Facebook Sign Up</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/facebook_sign_up@2x-46a0d49da8179794cc9297cd0a4fb6290578a27b4109aa99718508c38736bdda.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="img-text1">Twitter Sign Up</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/twitter_sign_up@2x-b4c574ccb07b8044b63042c1733df3948b4394d2cb477cda54e6b3702ca0de06.png" class="img-circle img-responsive imgformat1" />
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="img-text1">Google Sign Up</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/google_sign_up@2x-c773648d1999c26fcd27151d61aeb24712438c21ad95e231dd21d70a91742ac9.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                 </div>
+                <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">LinkedIn Sign Up</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/linkedin_sign_up@2x-1bfd2074927c7eba61df0066bad279b88bfd6420bb42f5fc7c2dd5c743b41466.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Github Sign Up</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/github_sign_up@2x-7b55964a246f6452cf214756d22f9068339d9e032b286e74b70de2ebbe72842e.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">User Invitation Emails</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_invitation_email@2x-84e90c98a22d5b9b07f13fe4a485533e0911aecf628e266bf36a107d9091e476.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Multi-tenants Accounts</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/multi_tenant_account@2x-286004fadb58cc30be65bf160fc9789e211c6a45abcac0f19303449f151d67cd.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">Subdomains</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/subdomains@2x-8eb8f8e144d940b06a2d96abe6fa4de6d5bc5ff7a1ca74897dd04178797505b6.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Custom Domains</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/custom_domains@2x-988309aebe6e4091c5a7ca5b1dff052fe027ea7764ddde8448082123c140e3e7.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Login Via OTP</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/email_password_sign_up@2x-a5cf07d56027a867ce801374a02948cc4ea3067ca6d857c7a4a6ffe1682c90ca.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br> 
+                    <br>
+                    <div class="heading">
+                        <h3>4.User Generated Content</h3>
+                        <br>
+                    </div> 
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">Dashboard</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/dashboard@2x-0796792d9292f29eccff5bb7225ef9a41aa3b575d66474675e31db44cd95d8c0.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Activity Feed</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/activity_feed@2x-b994138610c0e95b05ff52eecb34cd59659256268b2f72c9361bfa47ecb19544.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">File Uploading</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/file_uploading@2x-917a6a59d419d662266d76c74826e484cc1e9efddd555f8254ea965c47c6b405.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">User Profiles</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_profiles@2x-0226ea4d7cd7d13349ab4bf493bca8940dafa942597056a536275cfba2b83ee8.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                   </div>
+                   <br>
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Transactional Emails</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/transactional_emails@2x-486eeb3544c154bb40a405c3f39f3d436ca700df39f5e8606b82b1d6085d8e67.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Tags</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/tags@2x-b8f1b03849bce48c18740494e6e45913f86ec40d9c1378cf817a4a7243bebbf7.png" class="img-circle img-responsive imgformat1" />
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Ratings or reviews</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/ratings_review@2x-ddfcaf9789bf046b9923d7457f9246969fb319351b7088af9078dc41b267a01e.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Audio/Video processing</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/audio_video_processing@2x-6f14ebb4c1cade64289205d316a94b09c8ff50348e0ba5aa0f3616db956564c0.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Free text searching</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/free_text_searching@2x-1521bc5f4e34274621908dc5cf25b850ae0bfc0e43bfc4ec7ca37e50c6fb3f4d.png" class="img-circle img-responsive  imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <br> 
+                   <br>
+                   <div class="heading">
+                       <h3>5.Dates & Locations</h3>
+                       <br>
+                   </div>
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Calendaring</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/calendaring@2x-8e69b667148b2837524a59b4f970328fc005c7f9bb074db13fc736c472598ca4.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Display of Map data / Geolocation</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/map_data_geolocation@2x-0a2a0ea1d1326e9d47a7292dcd7ca25f886a42cbb372aed1664f8752d66ebed8.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Display of custom map markers</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/map_markers_regions@2x-1ce1727262f96ab9f48fe53293af37897bd8618d69604bb7a79aaea2f88c461e.png" class="img-circle img-responsive imgformat1" />
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Bookings</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/bookings@2x-d1441717a32c0c988b634fb738a250dbf18037531d8543b4a5be18cc7163d2f2.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>    
+                   <br>
+                   <br> 
+                   <br>
+                   <div class="heading">
+                       <h3>6.Social & Engagement</h3>
+                       <br>
+                   </div>    
+                   <div class="row" id="questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Messaging</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/messaging@2x-2f2fad9e71b026c18bc409500e8aadbd1f19e6e65380ad957f08597c197b00d2.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Forums or commenting</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/forums_commenting@2x-cfc8f8db3cb97faf58906b2e9c75d8639f54e82788a775a1dd9cfb974f2ce01a.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Social Sharing</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/social_sharing@2x-da6ca47d4261f0bb59ec0c3dad050ce9af0ce8d949d16c9876c9bc00d4adee7a.png" class="img-circle img-responsive imgformat1" />
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Push to Facebook Open Graph</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/facebook_open_graph@2x-f7cb23d0bb2929d5af39e9630e04998e50004dedb9a0c0191bc7f7af7710e774.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <br>
+                   <br>
+                   <div class="heading">
+                       <h3>7. Billing & eCommerce</h3>
+                       <br>
+                   </div>    
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p  class="img-text1">Subscription plans</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/subscription_plans@2x-68b34daa7eb97d48e144e397c08705ec4857c8923e4821a2215eacedad62c8d6.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Payment processing</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/payment_processing@2x-fc0b2e76b0bafb102a6f13efa0069618876f9616b45e6a8fe7b6688a35f75a8d.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Shopping Cart</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/shopping_cart@2x-4b88c69909121d085b92ab460aa27280c152f9dd8db6e8f093891f92fc31d5e4.png" class="img-circle img-responsive imgformat1" />
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">User Marketplace</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_marketplace@2x-b445490db17185dec82e9c69f8c5800582cb69d1efe0976001199529232d6818.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Product Management</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/data_admin_pages@2x-66ecc24c142af13353d933f4d16c5b4c47f3899da2454b1b5fe02dc69c21d15c.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <br>
+                   <br>
+                   <div class="heading">
+                        <h3>8. Admin, Feedback & Analytics</h3>
+                        <br>
+                    </div>    
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">CMS Integration</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/cms_integration@2x-eee84be4ad499fc926fc1018b2204f3358f3e9ab6db6b4a8135bce8f112a7399.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p  class="img-text1">User Admin pages</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_admin_pages@2x-f0f9def4d4b1156f62053d42699e574bc1bbc12a0b236938a6c573f2df2f2eda.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p  class="img-text1">Moderation / Content Approval</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/moderation_content_approval@2x-0dc4a22eb32a6aa23e56b40e6ec91b669bf75ffa41cb31bb0374c2481c1307de.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p  class="img-text1">Intercom</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/intercom@2x-14d426309b15542f20d8feb59fb2128b22065699563efec48f21bd88b298f52d.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">Usage Analytics</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_analytics@2x-57d30d34ddfb1693e990b035837579174fd5075a87e2a2e78bfebdaa385993c7.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Crash Reporting</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/crash_reporting@2x-ffdfa0f67fb7b63995e35129d328fbb29dc9e649ddde2e9a2f7f5f56fe104699.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Performance Monitoring</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/performance_management@2x-825ad932cc52fbe23c423f1a8c9dace1a2a73394dfa8ca313cf256e06de28d8a.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Multilingual Support</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/multilingual_support@2x-23a8d97e31bb2056b1a105301b5a19b8fc1e90bef2d68f037c8945d76bacc362.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="heading">
+                        <h3>9. External APIs and Integrations</h3>
+                        <br>
+                    </div>    
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">Connect to one or more third party services</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/third_party_services@2x-0e6189f4ae932f4f5189e93f659653eea3f272a0fc72e4c98537fab3dd3b5285.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">An API for others to integrate with your app</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/build_api@2x-104643c5918142ef46896c641a4b0166426b674b5af79de2227b078b0fd08d9d.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">SMS Messaging</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/sms_messaging@2x-fcfb4c64d3f4cb031e55fcfcdccd402b801cd8fc4bdf8aeb4939807e970dd623.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Phone Number Masking</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/phone_number_masking@2x-07e8147ad8aee5badcde17fcd445220dea988a7256d9e0ab748c4be0a0aafebb.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="heading">
+                        <h3>10. Security</h3>
+                        <br>
+                    </div>    
+                    <div class="row questionpart">
+                        <div class="col-sm-4">
+                            <p class="img-text2">SSL Certificate based Security</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/ssl_certificate@2x-c3010e74271ea0dfa126bb58dc0c8ae998afc42ba9c2dd30c23dd3394d98353e.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="img-text2">DoS protection</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/dos_protection@2x-026308303c4ec5b6fc38d8413891799a8a05cee223625facb523d86608c92cad.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="img-text2">Two Factor Authentication</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/two_factor_authentication@2x-ec2752e76cca0825691eadeeac3c1e56c54ace05a4cccf708f4d9fd575da556f.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="#" id="calculation">Click to Show Calculations  <span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span></a>
+                </div>
+            
+            <div role="tabpanel" class="tab-pane fade in active" id="app">  
+                <div class="heading">
+                    <h3>1. How big is you project?</h3>
+                    <br>
+                </div>    
+                <div class="row questionpart">
+                    <div class="col-sm-4">
+                        <p class="img-text2">Small</p>                      
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/small@2x-d58c5d533621f5fe7ffd8f4cbdd556ebdb723639c371de1570405064fd0ade61.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="img-text2">Medium</p>
+                        <a href="#">
+                           <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/medium@2x-3f73284910e08d5750e163b0a57ba1e2950428883a8b4e7e9b0a84222769046e.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="img-text2">Large</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/large@2x-c7fc2c376674be4b7afabc7292144218c991c7c2e1b7a126d0040e607db43da5.png" class="img-circle img-responsive imgformat1" />
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="heading">
+                    <h3>2.What level of UI would you like?</h3>
+                    <br>
+                </div>
+                <div class="row questionpart">
+                    <div class="col-sm-4">
+                        <p class="img-text2">MVP</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/mvp@2x-9434764c1bc0fbfb2a3eff18f45ceb107951a46993b4cd446d6702078a1bcb89.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="img-text2">Basic</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/basic@2x-1b2b2488069b31b0f0dbc2a74f2e9db36e60f47009473bdcb42001c369e4549c.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="img-text2">Polished</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/polished@2x-4f3e2b9c22e6351d650d650bd5e8c75b7db7c286f5195cd2fa75a76fe569aa7e.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="heading">
+                    <h3>3.Users & Accounts</h3>
+                    <br>
+                    <br>
+                </div>    
+                <div class="row questionpart">
+                    <div class="col-sm-3">
+                        <p class="img-text1">Email/Password Sign Up</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/email_password_sign_up@2x-a5cf07d56027a867ce801374a02948cc4ea3067ca6d857c7a4a6ffe1682c90ca.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="img-text1">Facebook Sign Up</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/facebook_sign_up@2x-46a0d49da8179794cc9297cd0a4fb6290578a27b4109aa99718508c38736bdda.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="img-text1">Twitter Sign Up</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/twitter_sign_up@2x-b4c574ccb07b8044b63042c1733df3948b4394d2cb477cda54e6b3702ca0de06.png" class="img-circle img-responsive imgformat1" />
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="img-text1">Google Sign Up</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/google_sign_up@2x-c773648d1999c26fcd27151d61aeb24712438c21ad95e231dd21d70a91742ac9.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                 </div>
+                <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">LinkedIn Sign Up</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/linkedin_sign_up@2x-1bfd2074927c7eba61df0066bad279b88bfd6420bb42f5fc7c2dd5c743b41466.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Github Sign Up</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/github_sign_up@2x-7b55964a246f6452cf214756d22f9068339d9e032b286e74b70de2ebbe72842e.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">User Invitation Emails</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_invitation_email@2x-84e90c98a22d5b9b07f13fe4a485533e0911aecf628e266bf36a107d9091e476.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Multi-tenants Accounts</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/multi_tenant_account@2x-286004fadb58cc30be65bf160fc9789e211c6a45abcac0f19303449f151d67cd.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">Subdomains</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/subdomains@2x-8eb8f8e144d940b06a2d96abe6fa4de6d5bc5ff7a1ca74897dd04178797505b6.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Custom Domains</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/custom_domains@2x-988309aebe6e4091c5a7ca5b1dff052fe027ea7764ddde8448082123c140e3e7.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Login Via OTP</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/email_password_sign_up@2x-a5cf07d56027a867ce801374a02948cc4ea3067ca6d857c7a4a6ffe1682c90ca.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br> 
+                    <br>
+                    <div class="heading">
+                        <h3>4.User Generated Content</h3>
+                        <br>
+                    </div> 
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">Dashboard</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/dashboard@2x-0796792d9292f29eccff5bb7225ef9a41aa3b575d66474675e31db44cd95d8c0.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Activity Feed</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/activity_feed@2x-b994138610c0e95b05ff52eecb34cd59659256268b2f72c9361bfa47ecb19544.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">File Uploading</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/file_uploading@2x-917a6a59d419d662266d76c74826e484cc1e9efddd555f8254ea965c47c6b405.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">User Profiles</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_profiles@2x-0226ea4d7cd7d13349ab4bf493bca8940dafa942597056a536275cfba2b83ee8.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                   </div>
+                   <br>
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Transactional Emails</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/transactional_emails@2x-486eeb3544c154bb40a405c3f39f3d436ca700df39f5e8606b82b1d6085d8e67.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Tags</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/tags@2x-b8f1b03849bce48c18740494e6e45913f86ec40d9c1378cf817a4a7243bebbf7.png" class="img-circle img-responsive imgformat1" />
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Ratings or reviews</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/ratings_review@2x-ddfcaf9789bf046b9923d7457f9246969fb319351b7088af9078dc41b267a01e.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Audio/Video processing</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/audio_video_processing@2x-6f14ebb4c1cade64289205d316a94b09c8ff50348e0ba5aa0f3616db956564c0.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Free text searching</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/free_text_searching@2x-1521bc5f4e34274621908dc5cf25b850ae0bfc0e43bfc4ec7ca37e50c6fb3f4d.png" class="img-circle img-responsive  imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <br> 
+                   <br>
+                   <div class="heading">
+                       <h3>5.Dates & Locations</h3>
+                       <br>
+                   </div>
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Calendaring</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/calendaring@2x-8e69b667148b2837524a59b4f970328fc005c7f9bb074db13fc736c472598ca4.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Display of Map data / Geolocation</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/map_data_geolocation@2x-0a2a0ea1d1326e9d47a7292dcd7ca25f886a42cbb372aed1664f8752d66ebed8.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Display of custom map markers</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/map_markers_regions@2x-1ce1727262f96ab9f48fe53293af37897bd8618d69604bb7a79aaea2f88c461e.png" class="img-circle img-responsive imgformat1" />
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Bookings</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/bookings@2x-d1441717a32c0c988b634fb738a250dbf18037531d8543b4a5be18cc7163d2f2.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>    
+                   <br>
+                   <br> 
+                   <br>
+                   <div class="heading">
+                       <h3>6.Social & Engagement</h3>
+                       <br>
+                   </div>    
+                   <div class="row" id="questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Messaging</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/messaging@2x-2f2fad9e71b026c18bc409500e8aadbd1f19e6e65380ad957f08597c197b00d2.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Forums or commenting</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/forums_commenting@2x-cfc8f8db3cb97faf58906b2e9c75d8639f54e82788a775a1dd9cfb974f2ce01a.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Social Sharing</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/social_sharing@2x-da6ca47d4261f0bb59ec0c3dad050ce9af0ce8d949d16c9876c9bc00d4adee7a.png" class="img-circle img-responsive imgformat1" />
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Push to Facebook Open Graph</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/facebook_open_graph@2x-f7cb23d0bb2929d5af39e9630e04998e50004dedb9a0c0191bc7f7af7710e774.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <br>
+                   <br>
+                   <div class="heading">
+                       <h3>7. Billing & eCommerce</h3>
+                       <br>
+                   </div>    
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p  class="img-text1">Subscription plans</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/subscription_plans@2x-68b34daa7eb97d48e144e397c08705ec4857c8923e4821a2215eacedad62c8d6.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Payment processing</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/payment_processing@2x-fc0b2e76b0bafb102a6f13efa0069618876f9616b45e6a8fe7b6688a35f75a8d.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Shopping Cart</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/shopping_cart@2x-4b88c69909121d085b92ab460aa27280c152f9dd8db6e8f093891f92fc31d5e4.png" class="img-circle img-responsive imgformat1" />
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">User Marketplace</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_marketplace@2x-b445490db17185dec82e9c69f8c5800582cb69d1efe0976001199529232d6818.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Product Management</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/data_admin_pages@2x-66ecc24c142af13353d933f4d16c5b4c47f3899da2454b1b5fe02dc69c21d15c.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <br>
+                   <br>
+                   <div class="heading">
+                        <h3>8. Admin, Feedback & Analytics</h3>
+                        <br>
+                    </div>    
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">CMS Integration</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/cms_integration@2x-eee84be4ad499fc926fc1018b2204f3358f3e9ab6db6b4a8135bce8f112a7399.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p  class="img-text1">User Admin pages</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_admin_pages@2x-f0f9def4d4b1156f62053d42699e574bc1bbc12a0b236938a6c573f2df2f2eda.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p  class="img-text1">Moderation / Content Approval</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/moderation_content_approval@2x-0dc4a22eb32a6aa23e56b40e6ec91b669bf75ffa41cb31bb0374c2481c1307de.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p  class="img-text1">Intercom</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/intercom@2x-14d426309b15542f20d8feb59fb2128b22065699563efec48f21bd88b298f52d.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">Usage Analytics</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_analytics@2x-57d30d34ddfb1693e990b035837579174fd5075a87e2a2e78bfebdaa385993c7.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Crash Reporting</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/crash_reporting@2x-ffdfa0f67fb7b63995e35129d328fbb29dc9e649ddde2e9a2f7f5f56fe104699.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Performance Monitoring</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/performance_management@2x-825ad932cc52fbe23c423f1a8c9dace1a2a73394dfa8ca313cf256e06de28d8a.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Multilingual Support</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/multilingual_support@2x-23a8d97e31bb2056b1a105301b5a19b8fc1e90bef2d68f037c8945d76bacc362.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="heading">
+                        <h3>9. External APIs and Integrations</h3>
+                        <br>
+                    </div>    
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">Connect to one or more third party services</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/third_party_services@2x-0e6189f4ae932f4f5189e93f659653eea3f272a0fc72e4c98537fab3dd3b5285.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">An API for others to integrate with your app</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/build_api@2x-104643c5918142ef46896c641a4b0166426b674b5af79de2227b078b0fd08d9d.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">SMS Messaging</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/sms_messaging@2x-fcfb4c64d3f4cb031e55fcfcdccd402b801cd8fc4bdf8aeb4939807e970dd623.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Phone Number Masking</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/phone_number_masking@2x-07e8147ad8aee5badcde17fcd445220dea988a7256d9e0ab748c4be0a0aafebb.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="heading">
+                        <h3>10. Security</h3>
+                        <br>
+                    </div>    
+                    <div class="row questionpart">
+                        <div class="col-sm-4">
+                            <p class="img-text2">SSL Certificate based Security</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/ssl_certificate@2x-c3010e74271ea0dfa126bb58dc0c8ae998afc42ba9c2dd30c23dd3394d98353e.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="img-text2">DoS protection</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/dos_protection@2x-026308303c4ec5b6fc38d8413891799a8a05cee223625facb523d86608c92cad.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="img-text2">Two Factor Authentication</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/two_factor_authentication@2x-ec2752e76cca0825691eadeeac3c1e56c54ace05a4cccf708f4d9fd575da556f.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="#" id="calculation">Click to Show Calculations  <span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span></a>
+                </div>
+            
+            <div role="tabpanel" class="tab-pane fade in active" id="webapp">  
+                <div class="heading">
+                    <h3>1. How big is you project?</h3>
+                    <br>
+                </div>    
+                <div class="row questionpart">
+                    <div class="col-sm-4">
+                        <p class="img-text2">Small</p>                      
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/small@2x-d58c5d533621f5fe7ffd8f4cbdd556ebdb723639c371de1570405064fd0ade61.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="img-text2">Medium</p>
+                        <a href="#">
+                           <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/medium@2x-3f73284910e08d5750e163b0a57ba1e2950428883a8b4e7e9b0a84222769046e.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="img-text2">Large</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/large@2x-c7fc2c376674be4b7afabc7292144218c991c7c2e1b7a126d0040e607db43da5.png" class="img-circle img-responsive imgformat1" />
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="heading">
+                    <h3>2.What level of UI would you like?</h3>
+                    <br>
+                </div>
+                <div class="row questionpart">
+                    <div class="col-sm-4">
+                        <p class="img-text2">MVP</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/mvp@2x-9434764c1bc0fbfb2a3eff18f45ceb107951a46993b4cd446d6702078a1bcb89.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="img-text2">Basic</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/basic@2x-1b2b2488069b31b0f0dbc2a74f2e9db36e60f47009473bdcb42001c369e4549c.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="img-text2">Polished</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/polished@2x-4f3e2b9c22e6351d650d650bd5e8c75b7db7c286f5195cd2fa75a76fe569aa7e.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="heading">
+                    <h3>3.Users & Accounts</h3>
+                    <br>
+                    <br>
+                </div>    
+                <div class="row questionpart">
+                    <div class="col-sm-3">
+                        <p class="img-text1">Email/Password Sign Up</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/email_password_sign_up@2x-a5cf07d56027a867ce801374a02948cc4ea3067ca6d857c7a4a6ffe1682c90ca.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="img-text1">Facebook Sign Up</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/facebook_sign_up@2x-46a0d49da8179794cc9297cd0a4fb6290578a27b4109aa99718508c38736bdda.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="img-text1">Twitter Sign Up</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/twitter_sign_up@2x-b4c574ccb07b8044b63042c1733df3948b4394d2cb477cda54e6b3702ca0de06.png" class="img-circle img-responsive imgformat1" />
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="img-text1">Google Sign Up</p>
+                        <a href="#">
+                            <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/google_sign_up@2x-c773648d1999c26fcd27151d61aeb24712438c21ad95e231dd21d70a91742ac9.png" class="img-circle img-responsive imgformat1"/>
+                        </a>
+                    </div>
+                 </div>
+                <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">LinkedIn Sign Up</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/linkedin_sign_up@2x-1bfd2074927c7eba61df0066bad279b88bfd6420bb42f5fc7c2dd5c743b41466.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Github Sign Up</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/github_sign_up@2x-7b55964a246f6452cf214756d22f9068339d9e032b286e74b70de2ebbe72842e.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">User Invitation Emails</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_invitation_email@2x-84e90c98a22d5b9b07f13fe4a485533e0911aecf628e266bf36a107d9091e476.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Multi-tenants Accounts</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/multi_tenant_account@2x-286004fadb58cc30be65bf160fc9789e211c6a45abcac0f19303449f151d67cd.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">Subdomains</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/subdomains@2x-8eb8f8e144d940b06a2d96abe6fa4de6d5bc5ff7a1ca74897dd04178797505b6.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Custom Domains</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/custom_domains@2x-988309aebe6e4091c5a7ca5b1dff052fe027ea7764ddde8448082123c140e3e7.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Login Via OTP</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/email_password_sign_up@2x-a5cf07d56027a867ce801374a02948cc4ea3067ca6d857c7a4a6ffe1682c90ca.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br> 
+                    <br>
+                    <div class="heading">
+                        <h3>4.User Generated Content</h3>
+                        <br>
+                    </div> 
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">Dashboard</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/dashboard@2x-0796792d9292f29eccff5bb7225ef9a41aa3b575d66474675e31db44cd95d8c0.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Activity Feed</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/activity_feed@2x-b994138610c0e95b05ff52eecb34cd59659256268b2f72c9361bfa47ecb19544.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">File Uploading</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/file_uploading@2x-917a6a59d419d662266d76c74826e484cc1e9efddd555f8254ea965c47c6b405.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">User Profiles</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_profiles@2x-0226ea4d7cd7d13349ab4bf493bca8940dafa942597056a536275cfba2b83ee8.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                   </div>
+                   <br>
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Transactional Emails</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/transactional_emails@2x-486eeb3544c154bb40a405c3f39f3d436ca700df39f5e8606b82b1d6085d8e67.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Tags</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/tags@2x-b8f1b03849bce48c18740494e6e45913f86ec40d9c1378cf817a4a7243bebbf7.png" class="img-circle img-responsive imgformat1" />
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Ratings or reviews</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/ratings_review@2x-ddfcaf9789bf046b9923d7457f9246969fb319351b7088af9078dc41b267a01e.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Audio/Video processing</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/audio_video_processing@2x-6f14ebb4c1cade64289205d316a94b09c8ff50348e0ba5aa0f3616db956564c0.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Free text searching</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/free_text_searching@2x-1521bc5f4e34274621908dc5cf25b850ae0bfc0e43bfc4ec7ca37e50c6fb3f4d.png" class="img-circle img-responsive  imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <br> 
+                   <br>
+                   <div class="heading">
+                       <h3>5.Dates & Locations</h3>
+                       <br>
+                   </div>
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Calendaring</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/calendaring@2x-8e69b667148b2837524a59b4f970328fc005c7f9bb074db13fc736c472598ca4.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Display of Map data / Geolocation</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/map_data_geolocation@2x-0a2a0ea1d1326e9d47a7292dcd7ca25f886a42cbb372aed1664f8752d66ebed8.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Display of custom map markers</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/map_markers_regions@2x-1ce1727262f96ab9f48fe53293af37897bd8618d69604bb7a79aaea2f88c461e.png" class="img-circle img-responsive imgformat1" />
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Bookings</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/bookings@2x-d1441717a32c0c988b634fb738a250dbf18037531d8543b4a5be18cc7163d2f2.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>    
+                   <br>
+                   <br> 
+                   <br>
+                   <div class="heading">
+                       <h3>6.Social & Engagement</h3>
+                       <br>
+                   </div>    
+                   <div class="row" id="questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Messaging</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/messaging@2x-2f2fad9e71b026c18bc409500e8aadbd1f19e6e65380ad957f08597c197b00d2.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Forums or commenting</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/forums_commenting@2x-cfc8f8db3cb97faf58906b2e9c75d8639f54e82788a775a1dd9cfb974f2ce01a.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Social Sharing</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/social_sharing@2x-da6ca47d4261f0bb59ec0c3dad050ce9af0ce8d949d16c9876c9bc00d4adee7a.png" class="img-circle img-responsive imgformat1" />
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Push to Facebook Open Graph</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/facebook_open_graph@2x-f7cb23d0bb2929d5af39e9630e04998e50004dedb9a0c0191bc7f7af7710e774.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <br>
+                   <br>
+                   <div class="heading">
+                       <h3>7. Billing & eCommerce</h3>
+                       <br>
+                   </div>    
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p  class="img-text1">Subscription plans</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/subscription_plans@2x-68b34daa7eb97d48e144e397c08705ec4857c8923e4821a2215eacedad62c8d6.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Payment processing</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/payment_processing@2x-fc0b2e76b0bafb102a6f13efa0069618876f9616b45e6a8fe7b6688a35f75a8d.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">Shopping Cart</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/shopping_cart@2x-4b88c69909121d085b92ab460aa27280c152f9dd8db6e8f093891f92fc31d5e4.png" class="img-circle img-responsive imgformat1" />
+                           </a>
+                       </div>
+                       <div class="col-sm-3">
+                           <p class="img-text1">User Marketplace</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_marketplace@2x-b445490db17185dec82e9c69f8c5800582cb69d1efe0976001199529232d6818.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <div class="row questionpart">
+                       <div class="col-sm-3">
+                           <p class="img-text1">Product Management</p>
+                           <a href="#">
+                               <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/data_admin_pages@2x-66ecc24c142af13353d933f4d16c5b4c47f3899da2454b1b5fe02dc69c21d15c.png" class="img-circle img-responsive imgformat1"/>
+                           </a>
+                       </div>
+                   </div>
+                   <br>
+                   <br>
+                   <br>
+                   <div class="heading">
+                        <h3>8. Admin, Feedback & Analytics</h3>
+                        <br>
+                    </div>    
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">CMS Integration</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/cms_integration@2x-eee84be4ad499fc926fc1018b2204f3358f3e9ab6db6b4a8135bce8f112a7399.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p  class="img-text1">User Admin pages</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_admin_pages@2x-f0f9def4d4b1156f62053d42699e574bc1bbc12a0b236938a6c573f2df2f2eda.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p  class="img-text1">Moderation / Content Approval</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/moderation_content_approval@2x-0dc4a22eb32a6aa23e56b40e6ec91b669bf75ffa41cb31bb0374c2481c1307de.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p  class="img-text1">Intercom</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/intercom@2x-14d426309b15542f20d8feb59fb2128b22065699563efec48f21bd88b298f52d.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">Usage Analytics</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/user_analytics@2x-57d30d34ddfb1693e990b035837579174fd5075a87e2a2e78bfebdaa385993c7.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Crash Reporting</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/crash_reporting@2x-ffdfa0f67fb7b63995e35129d328fbb29dc9e649ddde2e9a2f7f5f56fe104699.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Performance Monitoring</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/performance_management@2x-825ad932cc52fbe23c423f1a8c9dace1a2a73394dfa8ca313cf256e06de28d8a.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Multilingual Support</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/multilingual_support@2x-23a8d97e31bb2056b1a105301b5a19b8fc1e90bef2d68f037c8945d76bacc362.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="heading">
+                        <h3>9. External APIs and Integrations</h3>
+                        <br>
+                    </div>    
+                    <div class="row questionpart">
+                        <div class="col-sm-3">
+                            <p class="img-text1">Connect to one or more third party services</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/third_party_services@2x-0e6189f4ae932f4f5189e93f659653eea3f272a0fc72e4c98537fab3dd3b5285.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">An API for others to integrate with your app</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/build_api@2x-104643c5918142ef46896c641a4b0166426b674b5af79de2227b078b0fd08d9d.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">SMS Messaging</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/sms_messaging@2x-fcfb4c64d3f4cb031e55fcfcdccd402b801cd8fc4bdf8aeb4939807e970dd623.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="img-text1">Phone Number Masking</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/phone_number_masking@2x-07e8147ad8aee5badcde17fcd445220dea988a7256d9e0ab748c4be0a0aafebb.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="heading">
+                        <h3>10. Security</h3>
+                        <br>
+                    </div>    
+                    <div class="row questionpart">
+                        <div class="col-sm-4">
+                            <p class="img-text2">SSL Certificate based Security</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/ssl_certificate@2x-c3010e74271ea0dfa126bb58dc0c8ae998afc42ba9c2dd30c23dd3394d98353e.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="img-text2">DoS protection</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/dos_protection@2x-026308303c4ec5b6fc38d8413891799a8a05cee223625facb523d86608c92cad.png" class="img-circle img-responsive imgformat1"/>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="img-text2">Two Factor Authentication</p>
+                            <a href="#">
+                                <img src="https://d3h99m5mv5zvgz.cloudfront.net/assets/two_factor_authentication@2x-ec2752e76cca0825691eadeeac3c1e56c54ace05a4cccf708f4d9fd575da556f.png" class="img-circle img-responsive imgformat1" />
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="#" id="calculation">Click to Show Calculations  <span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span></a>
+                </div>
+        </div>
+        
+        <br>
+                    
+        <h3>Total Cost: $</h3>
+        <br>
+        <br>
+        <!--  FOR SAVING ESTIMATE
+        <div id="endbox">
+            <h5>Save your estimate and get a permalink so you can share with your team.</h5>
+            <form>
+                <div>
+                    <input type="text" class="form-control" placeholder="Enter your email address">
+                </div>
+                <br>
+                <button type="submit" class="btn btn-default" id="colorcombo">Save Estimate</button>
+            </form>    
+        </div>-->
+    </body>
+</html>"#project-cost-estimator"
